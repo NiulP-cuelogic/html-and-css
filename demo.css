@@ -1,0 +1,23 @@
+.column1{
+    background-color: lightgrey;
+    border-style:groove;
+    width: 400px;
+    float:left;
+    text-align:center;
+}
+.column2{
+    background-color: lightgrey;
+    border-style: groove;
+    width: 300px;
+    float:right;
+    text-align:center;
+}
+.column3{
+    background-color: lightgrey;
+    border-style: groove;
+    width: 540px;
+    float: left;
+    text-align:center;
+    margin: 20px;
+    margin-top: 0px;
+}
