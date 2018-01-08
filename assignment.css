@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Quicksand";
+    font-size: 16px;
+}
+
+.container{
+    position: relative;
+}
+
+.logo{
+    position: fixed ;
+    top:50px;
+    left: 100px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: none;
+    padding:  0px 25px 23px 20px;
+    border-radius: 20%;
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;  
+}
+header ul li{
+    display: inline-block;
+    color: white; 
+}
+.container .content{
+    position: fixed;
+    top: 0;
+    height: 72px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding-bottom  : 30px;
+}
+ul{
+    float: right;
+    margin-right: 15em;
+}
+button{
+    background-color: #a2c73c;
+    border-radius: 20px;
+    border-style: none;
+    height: 20px;
+    color: aliceblue;
+    padding: 10px 20px 25px 20px;
+}   
