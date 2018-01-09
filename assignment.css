@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: "Quicksand";
     font-size: 16px;
 }
@@ -16,7 +16,6 @@ body {
     position: fixed ;
     top:50px;
     left: 100px;
-    z-index: 100;
     background-color: rgba(0, 0, 0, 0.5);
     border-style: none;
     padding:  0px 25px 23px 20px;
@@ -37,33 +36,27 @@ header ul li{
     position: fixed;
     top: 0;
     height: 72px;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding-bottom  : 30px;
+    padding: 3px;
 }
-ul{
+.ul1{
+    position: absolute;
     float: right;
-    margin-right: 15em;
+    margin-left: 644px;
 }
 button{
     background-color: #a2c73c;
     border-radius: 20px;
     border-style: none;
-    height: 20px;
+    height: 32px;
+    width: 90px;
     color: aliceblue;
-    padding: 10px 20px 25px 20px;
 }   
 
-.post1{
-    width: 267px;
-    height: 150px;
-    border-style: none ;
-    position: absolute;
-    left: 366px;
-    top: 720px;
-    background-color: #a2c73c;
-    color: #f1f1f1;
+.sect2{
+    height: 900px;
 }
  #large{
     position: absolute;
@@ -78,4 +71,84 @@ button{
 button#large{
     height: 65px;
     width:555px;
+    left: 380px;
+}
+
+.ul2{
+    list-style: none;
+    float: left;
+    margin-left: 201px;
+    
+}
+#li1{
+    background-color: #a2c73c;
+    width: 267px;
+    height: 267px;
+    text-align: center;
+}
+#li2{
+    float: left;
+    margin-left: 267px;
+    margin-top: -267px;
+}
+#li3{
+    background-color: #075daa;
+    width: 267px;
+    height: 267px;
+    float: left;
+    margin-left: 534px;
+    margin-top: -271px;
+    text-align: center;
+}
+
+#li4{
+    float: left;
+    margin-top: -18px;
+}
+#li5{
+    background-color: blueviolet;
+    width: 267px;
+    padding: 15px;
+    margin-left: 267px;
+    margin-top: -34px;
+    text-align: center;
+    height: 267px;
+}
+
+#p1{
+    margin-top: 51px;
+}
+#grid_logo{
+    margin-top: 61px;
+}
+#li6{
+    float: left;
+    margin-left: 267px;
+    margin-top: -267px;
+}
+#li7{
+    background-color: #4494d1;
+    width: 267px;
+    height: 267px;
+    float: left;
+    margin-left: -801px;
+    text-align: center;
+}
+#li8{
+    float: left;
+    margin-left: -534px;
+}
+#li9{
+    background-color: #0eb049;
+    width: 267px;
+    float: left;
+    margin-left: -267px;
+    height: 267px;
+    text-align: center;Lorem ipsum dolor sit amet;
+}
+
+.sect3hd{
+    background-color:#0072bc  ;
+    height:50px;
+    text-align:center;
 }
