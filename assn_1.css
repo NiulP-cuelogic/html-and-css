@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Quicksand";
+}
+
+.container{
+    position: relative;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.container .content{
+    position: fixed;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 72px;
+    width: 100%;
+}
+
+#topnav{
+float: right;
+color: white;
+margin-right: 335px;
+margin-top: -1px;
+}
+
+#topnav li{
+    padding: 20px;
+}
+#signbtn{
+color: whitesmoke;
+background-color: lightgreen;
+border-radius: 36px;
+width: 89px;
+height: 38px;
+border-style: none;
+}
+
+#topnav li:hover{
+    color: lightgreen;
+    transition: 500ms;
+}
+#logo1{
+margin-left: 143px;
+margin-top: 32px;
+background: rgba(0,0,0,0.5);
+border-style: none;
+border-radius: 29px;
+padding: 16px;
+}
+
+.sect{
+    margin-top: 100px;
+margin-left: 436px;
+}
+
+#thumbnail1{
+background: lightgreen;
+width: 270px;
+height: 270px;
+text-align: center;
+list-style: none;
+}
+#thumbnail2{
+list-style: none;
+margin-left: 270px;
+margin-top: -270px;
+}
+
+#thumbnail3{
+    width: 270px;
+height: 270px;
+background: blue;
+text-align: center;
+list-style: none;
+margin-left: 540px;
+margin-top: -294px;
+}
+#thumbnail4{
+    list-style: none;
+}
+#thumbnail5{
+    width: 270px;
+height: 270px;
+background: green;
+margin-left: 270px;
+margin-top: -275px;
+list-style: none;
+}
+
+#thumbnail6{
+    margin-left: 540px;
+margin-top: -269px;
+list-style: none;
+}
+
+#thumbnail7{
+    width: 270px;
+height: 270px;
+background: lightblue;
+margin-top: -24px;
+text-align: center;
+list-style: none;
+}
+
+#thumbnail8{
+    margin-left: 270px;
+margin-top: -271px;
+list-style: none;
+}
+
+#thumbnail9{
+    background: green;
+width: 270px;
+height: 270px;
+margin-left: 540px;
+margin-top: -293px;
+list-style: none;
+text-align: center;
+}
+.sect3{
+    background:#0072bc;
+}
+#sect3hd{
+text-align: center;
+color: white;
+margin-top: 52px;
+padding: 88px;
+font-size: 36px;
+}
+
+ #sect3p{
+    
+    
+    width: 725px;
+    text-align: center;
+    margin-left: 537px;
+    padding-bottom: 90px; 
+    color: white;  
+    font-size: 18px; 
+}
+
+#sect3btn{
+    margin-left: 36%;
+    width: 474px;
+    border-radius: 55px;
+    height: 60px;
+    font-size: 28px;
+    border-style: none;
+    background: lightgreen;
+    margin-bottom: 69px;
+}
+.icons{
+    list-style: none;
+}
+#icon{
+    text-align: center;
+    float: left;
+}

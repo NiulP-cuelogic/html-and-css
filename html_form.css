@@ -1,0 +1,15 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top:300px;
+    position: relative;
+    left:40%;
+    border-style: groove;
+    width:20%;
+    text-align: center;
+    height:30%;
+    padding-bottom: 20%;
+}
+.fname{
+    position: absolute;
+    left: 45%;
+}
