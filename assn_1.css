@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Quicksand";
+}
+
+.container{
+    position: relative;
+    background-image: url(banner-img.png);
+    width: 100%;
+    height: 700px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.container .content{
+    position: fixed;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 72px;
+    width: 100%;
+}
+#headerlogo{
+    margin-left: 538px;
+    margin-top: 174px;
+}
+ .content::after{ 
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 11%;
+    border-top: 63px solid rgba(0, 0, 0, 0.5);
+    border-right: 101px solid rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 14px;
+    z-index: -1;
+    border: 21;
+    }
+
+
+.headertext{
+    color: white;
+    margin-left: 29%;
+    font-size: 50px;
+}
+
+#headerbtn{
+    margin-top: 37px;
+    margin-left: 35%;
+    background-color: #a2c73c;
+    width: 30%;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    height: 51px;
+    font-size: 23px;
+}
+#topnav{
+float: right;
+color: white;
+margin-right: 206px;
+margin-top: -1px;
+}
+
+#topnav li{
+    padding: 20px;
+}
+#signbtn{
+color: whitesmoke;
+background-color: lightgreen;
+border-radius: 36px;
+width: 89px;
+height: 38px;
+border-style: none;
+}
+
+#topnav li:hover{
+    color: lightgreen;
+    transition: 500ms;
+}
+#logo1{
+margin-left: 143px;
+margin-top: 32px;
+
+border-style: none;
+border-radius: 29px;
+padding: 16px;
+}
+
+.sect{
+ margin-top: 100px;
+margin-left: 436px;
+}
+.sectul{
+    margin-left: -218px;
+}
+a{
+    color: black;
+}
+#thumbnail1{
+background: #a2c73c;
+width: 270px;
+height: 270px;
+text-align: center;
+list-style: none;
+}
+#thumbnail1hd{
+    padding-top: 21px;
+}
+#thumbnail1p1{
+    color: rgb(70, 66, 66);
+}
+#thumbnail1p2{
+    color: rgb(241, 235, 235);
+}
+#thumbnail1p3{
+    color: grey;
+}
+#thumbnail2{
+list-style: none;
+margin-left: 270px;
+margin-top: -270px;
+}
+
+#thumbnail3{
+    width: 270px;
+height: 270px;
+background:#075daa ;
+text-align: center;
+list-style: none;
+margin-left: 540px;
+margin-top: -294px;
+}
+#thumbnail3hd{
+    padding-top: 26px;
+}
+
+#thumbnail3p1{
+    color:grey;
+}
+#thumbnail3p2{
+    color: rgb(250, 241, 241);
+}
+#thumbnail4{
+    list-style: none;
+}
+#thumbnail5{
+    width: 270px;
+height: 270px;
+background:white;
+margin-left: 270px;
+margin-top: -275px;
+list-style: none;
+}
+#thumbnail5p{
+    text-align: center;
+    color: grey;
+}
+#thumbnail5p2{
+    margin-left: 51px;
+}
+#grid_logo{
+    margin-top: 74px;
+    margin-left: 90px;
+}
+
+#thumbnail6{
+    margin-left: 540px;
+margin-top: -269px;
+list-style: none;
+}
+
+#thumbnail7{
+    width: 270px;
+height: 270px;
+background: #4494d1;
+margin-top: -24px;
+text-align: center;
+list-style: none;
+}
+#thumbnail7hd{
+    padding-top: 52px;
+}
+#thumbnail7p1{
+    color: darkgrey;
+}
+
+#thumbnail8{
+    margin-left: 270px;
+margin-top: -271px;
+list-style: none;
+}
+
+#thumbnail9{
+background: #a2c73c;
+width: 270px;
+height: 270px;
+margin-left: 540px;
+margin-top: -293px;
+list-style: none;
+text-align: center;
+}
+#thumbnail9hd{
+    padding-top: 7px;
+}
+#thumbnail9p1{
+    color: grey;
+}
+#thumbnail9p2{
+    color: whitesmoke;
+}
+#thumbnail9p3{
+    color: whitesmoke;
+    font-weight: 100;
+}
+.sect3{
+    background:#0072bc;
+}
+#sect3hd{
+text-align: center;
+color: white;
+margin-top: 52px;
+padding: 88px;
+font-size: 36px;
+}
+
+ #sect3p{
+    
+    
+    width: 725px;
+    text-align: center;
+    margin-left: 300px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 24px;
+    margin-top: -79px;
+}
+
+#sect3btn{
+    margin-left: 32%;
+    width: 474px;
+    border-radius: 55px;
+    height: 60px;
+    font-size: 28px;
+    border-style: none;
+    background:#a2c73c ;
+    margin-bottom: 69px;
+    color: whitesmoke;
+}
+
+
+ul{
+    list-style: none; 
+    display: block
+}
+.sect4{
+    background-color: white;
+    width: 100%;
+    height: 900px;
+}
+#icon1{
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 300px;
+    padding: 22px
+}
+#icon1btn {
+    background: white;
+    border-style: solid;
+    border-radius: 25px;
+    width: 206px;
+    height: 38px;
+    color: #0072bc;
+    border-color: #a2c73c;
+}
+#icon2{
+    width: 33%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 22px;
+}
+#icon2btn {
+    background: whitesmoke;
+    border-style: solid;
+    border-radius: 25px;
+    width: 206px;
+    height: 38px;
+    color: #0072bc;
+    border-color: #a2c73c;
+}
+
+#icon3{
+    width: 33%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 22px;
+}
+#icon3btn {
+    background: whitesmoke;
+    border-style: solid;
+    border-radius: 25px;
+    width: 206px;
+    height: 38px;
+    color: #0072bc;
+    border-color: #a2c73c;
+}
+
+#icon4{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    padding: 131px;
+}
+
+#icon4btn {
+    background: whitesmoke;
+    border-style: solid;
+    border-radius: 25px;
+    width: 206px;
+    height: 38px;
+    color: #0072bc;
+    border-color: #a2c73c;
+}
+#icon5{
+    width: 50%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding: 131px;
+}
+
+#icon5btn {
+    background: whitesmoke;
+    border-style: solid;
+    border-radius: 25px;
+    width: 206px;
+    height: 38px;
+    color: #0072bc;
+    border-color: #a2c73c;
+}
+
+.navbtn .bottomnav li{
+    list-style: none;
+}
+
+#btimg{
+    margin-left: 304px;
+    padding-top: 34px;
+}
+.bottomnav{
+    margin-left: 772px;
+    padding-top: 61px;
+    padding-left: 0px;px;
+}
+
+.bottomnav li{
+    display: inline;
+    margin: 30px;
+    color: #3e6485;
+ 
+}
+
+footer{
+    background-color:  #0f151a;
+    height: 300px;
+}
+.social li{
+    display: inline;
+    padding:20px;
+}
+.social{
+    margin-left: 170px;
+    margin-top: 53px;
+}
+.finalfooter{
+    color: #3e6485;
+    float: left;
+    margin-top: -9px;
+    border-style: solid;
+    width: black;
+    text-align: center;
+    width: 100%;
+    border-bottom-color: #0f151a;
+    border-left-color: #0f151a;
+    border-right-color: #0f151a;
+    border-top-color: black;
+    padding: 15px;
+}
