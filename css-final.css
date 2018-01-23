@@ -46,7 +46,7 @@ header .container .top-nav ul li a:hover{
 }
 
 .banner{
-    background-image: url(/home/niul/Documents/html-and-css/Assets/banner-img.png);
+    background-image: url(Assets/banner-img.png);
     height: 700px;
 }
 
@@ -110,4 +110,85 @@ font-size: 32px;
     text-align: center;
     width:300px;
     height: 300px;
+}
+
+.upper-icons ul{
+    text-align: center;
+}
+.upper-icons ul li{
+    display: inline-block;
+    width: 26%;
+    text-align: center;
+    padding: 40px;
+    font-weight: lighter;
+}
+
+.lower-icons ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 40px;
+    font-weight: lighter;
+}
+.lower-icons ul{
+    text-align: center;
+}
+.icon-grid button{
+    background-color: whitesmoke;
+color: #0072bc;
+border: solid;
+border-width: 2px;
+border-color: #a2c73c;
+width: 260px;
+border-radius: 30px;
+height: 44px;
+}
+.icon-grid button:hover{
+    background-color:#a2c73c;
+}
+.icon-grid h3{
+    font-weight: ;
+}
+
+.sect3{
+    text-align: center;
+    list-style: none;
+    background-color: #0072bc;
+    color: white;
+}
+.sect3-title{
+    font-size: 36px;
+    padding: 4px;
+}
+.sect3-para{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+    line-height: 174%;
+}
+
+.sect3-btn{
+    margin: 14px;
+    padding: 53px;
+}
+.sect3-btn button{
+    width: 31em;
+    height: 4em;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #a2c73c;
+}
+.sect3-btn button:hover{
+    background-color: #0072bc;
+    border-style: solid;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    transition: 500ms;
+}
+
+.sect3-btn button h5{
+    font-size: 24px;
+    margin: 0 auto;
+    color: white;
 }
